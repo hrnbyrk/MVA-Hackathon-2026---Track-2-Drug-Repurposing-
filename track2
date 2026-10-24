@@ -1,0 +1,33 @@
+
+
+These are the standard treatment protocols for diseases resulting from this type of metabolic disorder.
+We, the aragorn1 team, focused on two key aspects of this treatment strategy. First, what molecules could act as pharmacological chaperones to enhance the activator function of the BUB1B protein?
+Second, what molecules can inhibit the proteins or substrates whose activity increases in the context of BUB1B dysfunction? In other words, what can be used as a substrate reduction therapy?
+In this disease, other treatment protocols, such as organ transplantation, enzyme replacement therapy, biotherapy, or dialysis, are ineffective.
+Gene therapy may also be recommended.
+
+
+The BUB1B gene encodes the BubR1 protein, which is marked in red in the M phase of the cell cycle. The primary role of this protein in the cell cycle is to act as the main effector of the spindle assembly checkpoint mechanism and to halt the cell’s transition from metaphase to anaphase until all chromosomes are properly attached to the microtubules.
+The Bub1-Bub3 complex forms a complex, and Bub1 acts as a molecular scaffold, pulling the BubR1-Bub3 complex toward the kinetochore. BubR1, Bub3, Mad2 in its active, closed form, and Cdc20 assemble at the kinetochore to form the Mitotic Checkpoint Complex, which can spread throughout the cytoplasm.
+Mutations in the BUB1B gene disrupt this checkpoint mechanism. APC/C-Cdc20 becomes activated prematurely, cohesin is cleaved early, and premature chromatid separation leads to aneuploidy in daughter cells. Particularly in neural progenitor cells, shortened mitosis and intense cell death result in severe microcephaly, developmental delay, epileptic seizures, and a high risk of cancer (Wilms tumor, rhabdomyosarcoma, leukemia).
+
+
+
+
+
+In the absence of BubR1, Cdc20 is released and prematurely activates APC/C, leading to both the degradation of Cyclin B during interphase and early exit from mitosis. If we use Cdc20 inhibitors, we can reduce the clinical progression of the disease.
+Apcin (APC Inhibitor) competitively binds to the D-box (degradation box) binding pocket on the WD40 domain of Cdc20 and inhibits its ubiquitination.
+TAME and proTAME (Tosyl-L-arginine methyl ester), proTAME, a prodrug form capable of crossing the cell membrane, is converted to the active form TAME inside the cell. Acting as an IR-motif mimetic, it disrupts Cdc20’s binding to the APC/C complex and inhibits the transition from metaphase to anaphase.
+CP5V (PROTAC) is an Apcin-based Proteolysis Targeting Chimera (Apcin-A-PEG5-VHL Ligand 1) molecule; it binds to Cdc20 and selectively directs it toward intracellular degradation.
+Natural Bioactive Inhibitors include Withaferin A (delays mitotic exit by increasing Cdc20 degradation), Genistein, Rottlerin, and Curcumin (inhibits CDC20 expression).
+Labetalol is a potent drug repurposing candidate; structure-based virtual screening of FDA-approved drug libraries against the CDC20 protein, as well as molecular docking, binding free energy, and molecular dynamics (MD) simulations, have demonstrated that it binds with high affinity to the active pocket of CDC20 and functionally inhibits it.
+Nebivolol has been identified as one of the candidates that suppresses the hyperactive cell cycle/CDC20 network in integrated transcriptomic and in silico drug repositioning analyses.
+Lidocaine, Recent pharmacological studies have demonstrated that lidocaine competitively binds to the active site of Cdc20 and inhibits Cdc20-mediated early mitotic transition (exit from the G2/M phase) by downregulating CDC20 gene expression.
+
+Niacin, when the BubR1 protein is acetylated at position K668, it undergoes proteasomal degradation. The NAD+-dependent SIRT2 deacetylase enzyme protects BubR1 from degradation by deacetylating it and extends its half-life. It is one of the safest pediatric approaches to strengthen the natural brake on APC/C-Cdc20 by increasing the amount of BubR1 remaining in the patient.
+
+References
+-Dou Z, Prifti DK, Gui P, Liu X, Elowe S, Yao X. Recent Progress on the Localization of the Spindle Assembly Checkpoint Machinery to Kinetochores. Cells. 2019;8(3):278. Published 2019 Mar 23. doi:10.3390/cells8030278
+-Pavone P, Pappalardo XG, Mustafa N, et al. Pathogenic correlation between mosaic variegated aneuploidy 1 (MVA1) and a novel BUB1B variant: a reappraisal of a severe syndrome. Neurol Sci. 2022;43(11):6529-6538. doi:10.1007/s10072-022-06247-w
+-Zheng S, Raz L, Zhou L, et al. High CDC20 levels increase sensitivity of cancer cells to MPS1 inhibitors. EMBO Rep. 2025;26(4):1036-1061. doi:10.1038/s44319-024-00363-8
+-Bhuniya R, Yuan X, Bai L, et al. Design, Synthesis, and Biological Evaluation of Apcin-Based CDC20 Inhibitors. ACS Med Chem Lett. 2022;13(2):188-195. Published 2022 Jan 18. doi:10.1021/acsmedchemlett.1c00544
