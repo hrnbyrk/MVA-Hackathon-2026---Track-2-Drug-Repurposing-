@@ -1,0 +1,8 @@
+MVA-Hackathon-2026-Track2/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── Track2_DrugRepurposing.R  # veya Track2_Analysis.py
+└── docs/
+    └── mechanistic_pathway.png
