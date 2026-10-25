@@ -12,15 +12,15 @@ Computational drug repurposing and mechanistic intervention pipeline developed b
 
 ## 🧬 Project Overview & Biological Rationale
 
-Mosaic Variegated Aneuploidy Type 1 (MVA1) is a severe ultra-rare autosomal recessive disorder driven by mutations in the **BUB1B** gene, which encodes the **BubR1** protein[cite: 18]. 
+Mosaic Variegated Aneuploidy Type 1 (MVA1) is a severe ultra-rare autosomal recessive disorder driven by mutations in the **BUB1B** gene, which encodes the **BubR1** protein. 
 
-In the cell cycle, BubR1 acts as the core effector of the **Spindle Assembly Checkpoint (SAC)** mechanism during the M phase, functioning as a critical "brake" (anaphase inhibitor and pseudo-substrate) that halts the transition from metaphase to anaphase until all chromosomes achieve proper bipolar attachment[cite: 1, 2, 4, 18].
+In the cell cycle, BubR1 acts as the core effector of the **Spindle Assembly Checkpoint (SAC)** mechanism during the M phase, functioning as a critical "brake" (anaphase inhibitor and pseudo-substrate) that halts the transition from metaphase to anaphase until all chromosomes achieve proper bipolar attachment[cite: 1, 2, 4].
 
 ### ⚠️ Pathological Mechanism of BUB1B Dysfunction
-1. **Checkpoint Failure:** Mutations in *BUB1B* lead to a deficiency or functional loss of BubR1, disabling the Mitotic Checkpoint Complex (MCC) assembly[cite: 1, 18].
-2. **Premature APC/C Activation:** Free from BubR1 inhibition, **Cdc20** prematurely activates the Anaphase-Promoting Complex/Cyclosome (**APC/C-Cdc20**)[cite: 1, 3, 18].
-3. **Cohesin Cleavage & Aneuploidy:** Ubiquitin-mediated proteolysis destroys Securin (PTTG), releasing active **Separin (Esp1)**, which prematurely cleaves the Cohesin complex[cite: 1]. This results in **Premature Chromatid Separation (PCS)** and widespread mosaic aneuploidy[cite: 2, 18].
-4. **Clinical Consequences:** Especially in neural progenitor cells, shortened mitosis and massive cell death manifest as severe microcephaly, developmental delay, epileptic seizures, and a high risk of embryonal malignancies (Wilms tumor, rhabdomyosarcoma, leukemia)[cite: 17, 18, 20].
+1. **Checkpoint Failure:** Mutations in *BUB1B* lead to a deficiency or functional loss of BubR1, disabling the Mitotic Checkpoint Complex (MCC) assembly[cite: 1].
+2. **Premature APC/C Activation:** Free from BubR1 inhibition, **Cdc20** prematurely activates the Anaphase-Promoting Complex/Cyclosome (**APC/C-Cdc20**)[cite: 1, 3].
+3. **Cohesin Cleavage & Aneuploidy:** Ubiquitin-mediated proteolysis destroys Securin (PTTG), releasing active **Separin (Esp1)**, which prematurely cleaves the Cohesin complex[cite: 1]. This results in **Premature Chromatid Separation (PCS)** and widespread mosaic aneuploidy[cite: 2, 3].
+4. **Clinical Consequences:** Especially in neural progenitor cells, shortened mitosis and massive cell death manifest as severe microcephaly, developmental delay, epileptic seizures, and a high risk of embryonal malignancies (Wilms tumor, rhabdomyosarcoma, leukemia).
 
 ---
 
@@ -45,9 +45,9 @@ Since *BUB1B* deficiency leads to an overactive **APC/C-Cdc20** axis, suppressin
 
 Our pathway characterization and drug discovery workflow integrated multi-omics and biomedical literature databases:
 * **KEGG Pathways (hsa04110 - Cell Cycle):** Mapped the precise locus of BubR1 and its downstream cascade (`APC/C`, `Securin`, `Separin`, `Cohesin`)[cite: 1].
-* **OMIM (Online Mendelian Inheritance in Man - #257300):** Correlated *BUB1B* genotypes with MVA1 clinical phenotypes (microcephaly, cancer predisposition)[cite: 18].
+* **OMIM (Online Mendelian Inheritance in Man - #257300):** Correlated *BUB1B* genotypes with MVA1 clinical phenotypes (microcephaly, cancer predisposition).
 * **Gene Ontology (GO):** Analyzed cellular components (kinetochore, spindle checkpoint complex) and molecular functions (serine/threonine kinase activity, ubiquitin-protein ligase inhibitor activity).
-* **PubMed & PMC:** Extracted literature evidence on mitotic checkpoint kinetics, small-molecule inhibitors, and clinical case reappraisals[cite: 18].
+* **PubMed & PMC:** Extracted literature evidence on mitotic checkpoint kinetics, small-molecule inhibitors, and clinical case reappraisals.
 * **DrugBank & ChEMBL:** Queried physicochemical properties and binding affinities for FDA-approved repurposing candidates (Labetalol, Lidocaine, Niacin).
 
 ---
@@ -62,5 +62,5 @@ Our pathway characterization and drug discovery workflow integrated multi-omics 
 ## 📄 License & Compliance
 
 - **License:** This repository's code is licensed under the [MIT License](LICENSE).
-- **Data Usage:** Underlying clinical and genomic data provided by Sage Bionetworks and the MVA Society is licensed under **CC BY 4.0**[cite: 2].
-- **Ethics & Privacy:** All operations comply with WCG IRB protocol (#20252010). Raw data files are managed securely and scheduled for deletion post-hackathon[cite: 2].
+- **Data Usage:** Underlying clinical and genomic data provided by Sage Bionetworks and the MVA Society is licensed under **CC BY 4.0**.
+- **Ethics & Privacy:** All operations comply with WCG IRB protocol (#20252010). Raw data files are managed securely and scheduled for deletion post-hackathon.
